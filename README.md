@@ -31,3 +31,23 @@ Este é um código Python que faz o seguinte:
 6. Em seguida, o código imprime a data e hora atuais, a hora atual, os minutos atuais e os segundos atuais.
 
 Este código é basicamente um programa de saudação que cumprimenta o usuário com base na hora atual do dia e também exibe a data e hora atuais, a hora, os minutos e os segundos atuais.
+
+# Manipulando Excel com xlwings
+
+Este é um código Python que faz o seguinte:
+
+1. Importa a biblioteca `xlwings`, que é usada para automação e manipulação de dados do Excel.
+
+2. Cria um novo arquivo Excel chamado 'relatorio_excel.xlsx'.
+
+3. Verifica se uma planilha chamada 'Planilha1' existe no arquivo. Se não existir, ele cria uma nova planilha com esse nome. Se já existir, ele simplesmente seleciona essa planilha.
+
+4. Seleciona a célula 'A1' na planilha 'Planilha1'.
+
+5. Obtém a cor de fundo da célula 'A1' usando a propriedade `Interior.Color` do objeto `api` da célula.
+
+6. Converte a cor, que é retornada como um número único, para o formato RGB. O formato RGB é uma representação de cores usando três números, cada um representando a intensidade de vermelho, verde e azul, respectivamente.
+
+7. Imprime a cor da célula 'A1' no formato RGB.
+
+Este código é útil para aprender como manipular arquivos Excel em Python usando a biblioteca `xlwings`. Ele mostra como criar e salvar arquivos Excel, como adicionar e selecionar planilhas, como selecionar células e como obter e converter a cor de fundo de uma célula.
