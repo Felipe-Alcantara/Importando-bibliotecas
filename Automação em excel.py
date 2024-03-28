@@ -1,10 +1,7 @@
 import xlwings as xw
 
-# Abre o Excel
-app = xw.App(visible=True)
-
 # Cria um novo arquivo Excel
-wb = app.books.add()
+wb = xw.Book()
 wb.save('relatorio_excel.xlsx')
 
 # Cria uma nova planilha chamada 'Planilha1'
@@ -18,9 +15,6 @@ celula = sheet.range('A1')
 
 # Obtém a cor de fundo da célula
 cor = celula.api.Interior.Color
-
-# Fecha o Excel
-app.quit()
 
 # Converte a cor para formato RGB
 cor_rgb = (cor % 256, cor // 256 % 256, cor // 65536 % 256)
