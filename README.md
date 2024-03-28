@@ -11,8 +11,6 @@ Este código faz o seguinte:
 
 3. `print(aleatorio)`: Finalmente, este comando imprime o valor da variável `aleatorio`. Como `aleatorio` é definido como um número aleatório entre `1` e `100`, cada vez que você executa o programa, ele imprimirá um número diferente nesse intervalo.
 
-[====================================================================================================================================================]
-
 # Datetime saudações
 
 Este é um código Python que faz o seguinte:
