@@ -51,3 +51,21 @@ Este é um código Python que faz o seguinte:
 7. Imprime a cor da célula 'A1' no formato RGB.
 
 Este código é útil para aprender como manipular arquivos Excel em Python usando a biblioteca `xlwings`. Ele mostra como criar e salvar arquivos Excel, como adicionar e selecionar planilhas, como selecionar células e como obter e converter a cor de fundo de uma célula.
+
+# Criando uma Interface Gráfica com Tkinter
+
+Este é um código Python que faz o seguinte:
+
+1. Importa a biblioteca `Tkinter`, que é usada para criar interfaces gráficas.
+
+2. Cria uma nova janela usando `Tk()`. A janela é configurada com o título "Janelinha" e um tamanho de 500x500 pixels.
+
+3. Cria um `Frame` interno com fundo cinza. O `Frame` é posicionado no centro da janela.
+
+4. Define uma variável `equation_text` com o valor "Linha de texto".
+
+5. Cria um rótulo (`Label`) que contém o texto da variável `equation_text`. O rótulo tem uma fonte Helvetica de tamanho 30, texto preto e fundo cinza. O rótulo é adicionado ao `Frame` interno.
+
+6. Inicia o loop principal da janela com `window.mainloop()`. Isso faz com que a janela seja exibida na tela e comece a responder aos eventos do usuário.
+
+Este código é útil para aprender como criar interfaces gráficas em Python usando a biblioteca `Tkinter`. Ele mostra como criar e configurar janelas, como adicionar e posicionar frames, como criar rótulos com texto personalizado e como iniciar o loop principal da janela. Além disso, ele demonstra como usar cores de fundo para destacar elementos da interface gráfica.
