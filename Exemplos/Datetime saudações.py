@@ -5,15 +5,14 @@ agora = datetime.datetime.now()
 
 hora = agora.hour
 
-if hora < 0 or hora > 23:
-    print("Horario invalido!")
-else:
-    if hora >= 12 and hora < 18:
-        print("Boa tarde amigo!")
-    elif hora < 12:
-        print("Bom dia amigo!")
-    else:
-        print("Boa noite amigo!")
+if hora >= 6 and hora < 12:
+    print("Bom dia amigo!")
+elif hora >= 12 and hora < 18:
+    print("Boa tarde amigo!")
+elif hora >= 18 and hora < 24:
+    print("Boa noite amigo!")
+else:  # hora >= 0 and hora < 6
+    print("Boa madrugada amigo!")
 
 # Exibe a data e hora atual
 print("Data e hora atual:", agora)
@@ -26,4 +25,3 @@ print("Minutos atuais:", agora.minute)
 
 # Exibe apenas os segundos atuais
 print("Segundos atuais:", agora.second)
-
