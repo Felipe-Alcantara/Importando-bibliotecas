@@ -6,6 +6,20 @@ _*Sistema automatizado para download de anexos de e-mail e extração de dados d
 
 ---
 
+## Índice
+
+- [Conteúdo do repositório](#conteúdo-do-repositório)
+- [Principais características](#principais-características)
+- [Dependências](#dependências)
+- [Instalação (rápida)](#instalação-rápida)
+- [Como executar os exemplos](#como-executar-os-exemplos)
+- [Exemplos rápidos](#exemplos-rápidos)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Contato](#contato)
+
+---
+
 # Importando-bibliotecas
 
 Uma coleção de pequenos exemplos em Python criados enquanto eu aprendia a trabalhar com bibliotecas comuns do ecossistema. O objetivo deste repositório é servir como referência prática e didática — scripts simples e comentados que mostram como usar módulos como `random`, `datetime`, `tkinter` e `xlwings`.
